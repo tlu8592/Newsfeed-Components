@@ -61,5 +61,5 @@ function menuMaker(menuArr) {
 }
 
 // Step 6
-const header = document.querySelector('.header');
-header.appendChild(menuMaker(menuItems));
+const headerDiv = document.querySelector('.header');
+headerDiv.appendChild(menuMaker(menuItems));
