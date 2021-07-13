@@ -89,6 +89,34 @@ const data = [
   }
 ];
 
+// Step 5
+data.push({
+  title: "Learning React",
+  date: "July 13th, 2021",
+  firstParagraph: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+  incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa id neque aliquam. Eleifend mi in nulla posuere. Mattis ullamcorper velit sed ullamcorper. Nunc scelerisque viverra mauris in aliquam sem. Quam viverra orci sagittis eu volutpat. Pretium fusce id velit ut tortor. Odio facilisis mauris sit amet massa vitae. Vitae purus faucibus ornare suspendisse. 
+  Tellus at urna condimentum mattis pellentesque id nibh tortor id.`,
+  secondParagraph: `Hendrerit dolor magna eget est lorem ipsum dolor sit amet. Diam maecenas sed enim 
+  ut sem viverra aliquet eget sit. Venenatis cras sed felis eget velit. Laoreet non curabitur gravida 
+  arcu ac tortor dignissim convallis aenean. Feugiat in fermentum posuere urna nec. Hac habitasse platea 
+  dictumst quisque sagittis purus sit. Ligula ullamcorper malesuada proin libero nunc. Vitae turpis massa 
+  sed elementum. Nisi est sit amet facilisis. Aliquet porttitor lacus luctus accumsan. Gravida quis blandit 
+  turpis cursus in hac habitasse. Hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit 
+  ullamcorper. Vel quam elementum pulvinar etiam non quam lacus. Adipiscing bibendum est ultricies integer 
+  quis auctor elit sed. Lobortis feugiat vivamus at augue eget arcu. Id faucibus nisl tincidunt eget nullam 
+  non. Nisi vitae suscipit tellus mauris a diam maecenas sed. Lorem dolor sed viverra ipsum nunc aliquet 
+  bibendum enim facilisis. Sit amet mattis vulputate enim nulla aliquet porttitor lacus.`,
+  thirdParagraph: `Sagittis vitae et leo duis ut diam quam nulla. Gravida arcu ac tortor dignissim convallis 
+  aenean et tortor at. Vitae suscipit tellus mauris a diam. Sapien faucibus et molestie ac feugiat sed lectus 
+  vestibulum. Sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque. Augue neque gravida in 
+  fermentum et sollicitudin ac orci phasellus. Etiam tempor orci eu lobortis elementum nibh tellus molestie nunc. 
+  Scelerisque in dictum non consectetur. Velit egestas dui id ornare arcu odio ut sem nulla. Mollis nunc sed id semper risus.
+  Nibh tortor id aliquet lectus proin nibh nisl condimentum. Semper quis lectus nulla at volutpat diam. Purus faucibus 
+  ornare suspendisse sed nisi lacus sed. Ut sem nulla pharetra diam sit amet nisl. Sed elementum tempus egestas sed sed. 
+  Ullamcorper eget nulla facilisi etiam dignissim diam quis. Quisque sagittis purus sit amet volutpat consequat mauris 
+  nunc congue. Risus feugiat in ante metus dictum at tempor commodo ullamcorper.`
+});
+
 /*
   Step 1: Write a component called 'articleMaker' to create an article.
   Your component is a function that takes an article object as its only argument,
@@ -162,3 +190,4 @@ data.forEach(article => {
   const newArticle = articleMaker(article);
   articlesDiv.appendChild(newArticle);
 })
+
